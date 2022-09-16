@@ -2,9 +2,7 @@ import { Stack} from '@mui/material';
 import FmItem from './components/FmItem';
 import SearchAppBar from './components/SearchBar';
 import fmdata from './fmdata';
-import React, { useRef,useState, useEffect } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Views from './components/View';
+import React, { useRef,useState } from 'react';
 import FooterPlayer from './components/FooterPlayer';
 
 
@@ -83,9 +81,6 @@ function App() {
   }
   return (
     <>
-      {/* <BrowserRouter>
-        <Views></Views>
-      </BrowserRouter> */}
       <SearchAppBar onNewValue={searchValueChanged} ></SearchAppBar>
       <div style={{paddingButtom: "20px"}}>
       <Stack spacing={2}>
