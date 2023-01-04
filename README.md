@@ -1,4 +1,3 @@
 ### Screenshot of the Application
-![Screenshot](screenshot.png)
-
-All the sources used in the App are publicly available.
+![Screenshot of the application](Screenshot.png)
+All the media sources used in the App are publicly available.
